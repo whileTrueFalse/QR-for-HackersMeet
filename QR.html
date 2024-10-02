@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HackersMeet Warning</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #1a1a2e;
+      font-family: 'Orbitron', sans-serif;
+      color: #ffb142;
+      text-align: center;
+    }
+
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      opacity: 0;
+      animation: fadeIn 3s forwards;
+    }
+
+    h1 {
+      margin-top: 20px;
+      opacity: 0;
+      animation: fadeIn 4s forwards;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <img src="logo\logo-color.png" alt="HackersMeet Logo" id="logo">
+    <h1>hehe noob, don’t scan random QR’s, you can be hacked easily!</h1>
+  </div>
+
+  <script>
+    // Optional JavaScript can be added here for extra functionality if needed
+  </script>
+</body>
+</html>
